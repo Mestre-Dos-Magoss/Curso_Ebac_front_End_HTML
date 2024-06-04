@@ -1,0 +1,103 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+header li{
+    display:Inline;
+}
+header .container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+body>header{
+    background-color: rgb(117, 117, 188);
+    padding:13px;
+    color:rgb(230, 169, 39);
+    margin-bottom:17px;
+}
+header li a,article footer a{
+    color:rgb(227, 195, 116);
+    text-decoration:none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.container{
+width:1260px;
+margin:0 auto;
+}
+.articles article img{
+    height: 250px;
+    width:400px;
+    
+}
+.articles{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+}
+.articles article{
+width:33%;
+}
+section,article h3, header p{
+    margin:10px 0px;
+}
+
+#Esporte{
+    background-color:rgba(250,0,150,0.2);
+}
+#Esporte article footer a{
+    background-color: rgba(124, 23, 219,0.3);
+    color:rgb(155, 24, 24);
+    font-weight:bold;
+}
+#Ciencias{
+    background-color:rgba(0,0,255,0.2)
+}
+#Ciencias article footer a{
+    background-color:blueviolet;
+    color:chocolate;
+    font-weight:bold;
+}
+#Economia{
+    background-color: rgba(150,250,0,0.2);
+}
+
+#Economia article footer a{
+    background-color:rgb(60, 181, 60);
+    color:rgba(0, 0, 0, 0.725);
+    font-weight:bold;
+}
+#Cultura{
+    background-color:rgba(198, 154, 12,0.5);
+}
+#Cultura article footer a{
+    background-color:gold;
+    color:darkred;
+    font-weight:bold;
+}
+.articles article footer a{
+    background-color: burlywood;
+    color:brown;
+    font-family:'Times New Roman', Times, serif;
+    padding:5px;
+    border-radius:7px;
+    align-items: center;
+    display:inline-block;
+    margin-left:340px;
+    margin-top:-50px;
+}
+h1:hover{
+color:cyan;
+}
+articles article h2 ,h3,p{
+    font-family:'Times New Roman', Times, serif;
+}
+
+body>footer{
+    background-color:rgb(117, 117, 188);
+    padding:30px;
+    margin-top:20px;
+}
